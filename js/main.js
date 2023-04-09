@@ -5,5 +5,6 @@
     
     window.addEventListener("deviceorientation", (e) => {
         debug.textContent = e.beta;
+        console.log(e.beta);
     });
 }
