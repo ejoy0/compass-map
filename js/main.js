@@ -3,7 +3,7 @@
 {
     const debug = document.getElementById("debug");
     
-    // window.addEventListener("deviceorientation", (e) => {
-    //     debug.textContent = e.beta;
-    // });
+    window.addEventListener("deviceorientation", (e) => {
+        debug.textContent = e.beta;
+    });
 }
